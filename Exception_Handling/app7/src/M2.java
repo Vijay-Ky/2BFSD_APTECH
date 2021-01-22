@@ -20,6 +20,4 @@ Three important points
 	it can be throwable or subclass to throwable
 3. throw keyword should also require throwable type of class
 	it can be throwable or subclass to throwable
-
-
 */

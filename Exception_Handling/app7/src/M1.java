@@ -14,5 +14,5 @@ class M1
 /*
 1. throw keyword is used for raising Exception or Error Object explicitely.
 2. we can specify any Exception or Error class name along with the throw.
-3. if we did not handled the raised exception flow will be terminating abnoramaly.
+3. if we did not handle the raised exception the flow will be terminating abnoramaly.
 */
