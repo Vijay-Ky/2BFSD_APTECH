@@ -1,0 +1,37 @@
+1.Object class available in the java.lang package.
+2.its a concrete class.
+3.super class to all the classes.
+4.it is containing only no arg constructor, in that super statement is not available
+  because there is no super class to the object class.
+5.object class contains 9 methods
+  1.public string toString()
+  2.public boolean equals(Object obj)
+  3.public int hashCode()
+  4.protected void finalise() throws Throwable
+  5.protected void clone() throws CloneNotSupportedException
+  6.public Class getClass()
+  7.public void wait() throws InterruptedException
+  8.public void notify()
+  9.public void notifyAll()
+6.object class contains finalize method for garbage collection. 
+7.for one class we can create any no. of objects.evey class and object contains finalize method.
+8.if a object has min. one reference variable that object is called live object or
+  reachable object. if it doesnt its called abondened or dead object.
+9.all abondened objects are eligible for garbage collection.
+10.garbage collector removing abondened objects by calling finalize method.
+11.garbage collector doesnt remove as soon as the object is abondoned.
+12.garbage collector once in a while going to heap memory scanning the entire heap memory
+   if its found any finalize method calls finlalize and removes that object.
+13.cant predict the time of removing object by the garbage collector.
+14.we can call garbage collector explicitly by 
+15.on any object finalize method calling by finalize method only one time.
+16.while calling finalize method object might get reference variable.
+17.resuructed object.
+18.on resuructed object finalize method will not be calling.
+19.javap command used to retrieve all the methods are belonging to a class.
+20.cloanble is marker interface.
+21.by default object is not clonable.
+22.interface without any members is a marker interface.
+23.clonable is a one of the marker interface.
+24.marker interfaces are only for providing a mark not the functionality.
+25.clone method is protected should be called inside the inherited class.
